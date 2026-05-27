@@ -15,3 +15,4 @@ A real-time full-stack chat application built with the MERN stack.
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
 - **Real-time:** Socket.io
+<img width="1916" height="906" alt="image" src="https://github.com/user-attachments/assets/2b489a7a-a1be-4114-add3-1c0c68ff42cf" />

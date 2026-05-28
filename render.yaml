@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: ms-chat-app
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGO_URI
+        scope: build
+      - key: JWT_SECRET
+        scope: build
+      - key: CLIENT_URL
+        scope: build
